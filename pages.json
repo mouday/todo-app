@@ -1,0 +1,75 @@
+{
+    "pages": [{
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "健康看板",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/edit/page",
+            "style": {
+                "navigationBarTitleText": "健康数据"
+            }
+        },
+        {
+            "path": "pages/edit/tab",
+            "style": {
+                "navigationBarTitleText": "健康数据"
+            }
+        }, 
+        
+        {
+            "path": "pages/history/history",
+            "style": {
+                "navigationBarTitleText": "History"
+            }
+        }, {
+            "path": "pages/create/create",
+            "style": {
+                "navigationBarTitleText": "Add"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {}
+        }, {
+            "path": "pages/login/forget",
+            "style": {}
+        }, {
+            "path": "pages/login/register",
+            "style": {}
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "Todo",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF"
+    },
+
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#007aff",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/index.png",
+                "selectedIconPath": "static/image/index-active.png",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/edit/tab",
+                "iconPath": "static/image/add.png",
+                "selectedIconPath": "static/image/add-active.png",
+                "text": "目标"
+            }
+            // {
+            //     "pagePath": "pages/history/history",
+            //     "iconPath": "static/image/about.png",
+            //     "selectedIconPath": "static/image/about-active.png",
+            //     "text": "History"
+            // }
+        ]
+    }
+}
